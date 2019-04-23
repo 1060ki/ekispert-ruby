@@ -1,5 +1,7 @@
 require "ekispert/version"
 
+require 'ekispert/client'
+
 module Ekispert
   API_BASE = 'https://api.ekispert.jp'.freeze
   API_VERSION = '/v1'.freeze
@@ -10,6 +12,4 @@ module Ekispert
   class << self
     attr_accessor :api_key
   end
-
-  class Error < StandardError; end
 end
