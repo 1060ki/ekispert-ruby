@@ -1,6 +1,7 @@
 require "ekispert/version"
 
 require 'ekispert/client'
+require 'ekispert/course'
 
 module Ekispert
   API_BASE = 'https://api.ekispert.jp'.freeze
@@ -11,5 +12,9 @@ module Ekispert
 
   class << self
     attr_accessor :api_key
+
+    def client(api_key: nil)
+      @client ||= Client.new(api_key: api_key)
+    end
   end
 end

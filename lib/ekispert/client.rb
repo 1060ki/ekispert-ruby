@@ -22,7 +22,6 @@ module Ekispert
     end
 
     def get(path, **args)
-      args.delete_if { |_k, v| v.blank? }
       response = connection.get(path, args)
 
       case response.status
