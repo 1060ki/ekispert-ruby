@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ekispert (0.1.1)
+    ekispert (0.1.2)
       faraday (~> 0.13)
 
 GEM
