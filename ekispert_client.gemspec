@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ekispert/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'ekispert'
+  spec.name          = 'ekispert_client'
   spec.version       = Ekispert::VERSION
   spec.authors       = ['Tomoki Ichikawa']
   spec.email         = ['ichikawa1060@gmail.com']

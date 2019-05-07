@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ekispert'
+gem 'ekispert_client'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ekispert
+    $ gem install ekispert_client
 
 ## Usage
 
@@ -30,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ekispert.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ekispert-ruby.
 
 ## License
 
