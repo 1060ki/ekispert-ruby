@@ -13,8 +13,13 @@ module Ekispert
   class << self
     attr_accessor :api_key
 
-    def client(api_key: nil)
+    def client
       @client ||= Client.new(api_key: api_key)
+    end
+
+    def api_key=(new_value)
+      @api_key = new_value
+      @client = nil
     end
   end
 end
