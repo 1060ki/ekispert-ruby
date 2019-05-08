@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ekispert (0.1.2)
+    ekispert_client (0.1.2)
       faraday (~> 0.13)
 
 GEM
@@ -31,7 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  ekispert!
+  ekispert_client!
   rake (~> 10.0)
   rspec (~> 3.0)
 
